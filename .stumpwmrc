@@ -1,5 +1,7 @@
  (in-package :stumpwm)
 
+(setf *startup-message* nil)
+
 (set-module-dir
  (pathname-as-directory (concat (getenv "HOME") "/stumpwm/stumpwm-contrib")))
 
